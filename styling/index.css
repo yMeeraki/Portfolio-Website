@@ -3,7 +3,7 @@ Color Palette
 -----------------------------------
 Primary Color: Light Gray (#D3D3D3)
 Secondary Color:  Deep Charcoal (#333333)
-Accent Color: Cobalt Blue (#0056B3)
+Accent Color: Steel Blue (#4682B4) 
 
 Typography
 -----------------------------------
@@ -17,11 +17,13 @@ Open Sans: Regular (400) for body text and Medium (500) for emphasis on links or
 */
 body{
     color:#333333;
+    background-color: #333333;
 }
 /*  
     Main element Styling
 */
 .main{
+    
     font-family: "Open Sans" , sans-serif;
     display: flex;
     flex-direction: column;
@@ -35,11 +37,14 @@ body{
 */
 header{
     display: flex;
+    justify-content: space-between;
     background-color: #333333;
     color:#D3D3D3;
     padding: 2rem 3rem;
     align-items: center;
     font-family: "Montserrat", sans-serif;
+    
+    
 }
 
 /*  
@@ -48,8 +53,9 @@ header{
 nav ul {
     display: flex;
     flex-direction: row;
-    gap:1rem;
+    gap:3rem;
     color:#D3D3D3;
+    justify-content: space-between;
 }
 
 /*
@@ -58,7 +64,14 @@ nav ul {
 nav ul li a{
     color:#D3D3D3;
     font-weight: 500;
-    padding: 1rem;
+    padding: 0 1rem;
+    border-bottom: dotted .01rem #D3D3D3;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav ul li a:hover{
+    color:#4682B4;
+    border-bottom: solid .03rem #4682B4;
 }
 
 /*
@@ -67,7 +80,7 @@ nav ul li a{
 
 
 /* Headers */
-h1,h2,h3,nav li{
+h1,h2,h3{
     font-family: "Montserrat", sans-serif;
 }
 
