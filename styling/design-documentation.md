@@ -2,9 +2,9 @@ Website Design and Development Documentation
 
 1. Color Palette
 -----------------------------------
-Primary Color: Slate Blue (#6A5ACD)
-Secondary Color: Cream (#FFF5E1)
-Accent Color: Charcoal (#333333)
+Primary Color: Light Gray (#D3D3D3)
+Secondary Color:  Deep Charcoal (#333333)
+Accent Color: Cobalt Blue (#0056B3)
 
 2.  Typography
 -----------------------------------
