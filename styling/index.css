@@ -17,7 +17,7 @@ Open Sans: Regular (400) for body text and Medium (500) for emphasis on links or
 */
 body{
     color:#333333;
-    
+    background-color:  #F2F0EF;
 }
 /*  
     Main element Styling
@@ -28,8 +28,8 @@ body{
     display: flex;
     flex-direction: column;
     gap:3rem;
-    padding: 3rem;
-    background-color: #D3D3D3;
+    padding: 3rem 0;
+   
 }
 
 /*  
@@ -101,6 +101,27 @@ nav ul li a:hover{
 .skills-card ul{
     display: flex;
     gap:5rem;
+}
+
+/*
+    content-section class styling
+*/
+.content-section{
+    padding: 1rem;
+}
+
+/*
+    background-blue and background-black classes for highlighting specific sections
+*/
+.background-blue{
+    background-color: #4682B4;
+    
+    
+}
+
+.background-black{
+   background-color: #333;
+   color:#D3D3D3;
 }
 
 /* Headers */
